@@ -17,3 +17,5 @@ git push origin main
 sync changes
 git pull origin main //download
 git push origin main //upload
+
+ edited from github
