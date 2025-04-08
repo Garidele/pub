@@ -1,2 +1,14 @@
 Let s connect git with github
 hola
+
+initialize local repo
+git init
+
+add files in local repo
+git add .
+
+add to history
+git commit -m "description of changes"
+
+submit changes on github
+git push origin main
