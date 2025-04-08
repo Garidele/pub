@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    color: green;
+    font-family: monospace;
+    font-size: 18px;
+}
+
+section{
+    margin: 0 auto;
+    width: 80%;
+}
+
+section h1{
+    padding: 10px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.form{
+    margin: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form label{
+    margin: 15px;
+    padding: 10px;
+}
+
+.form input{
+    margin: 15px;
+    padding: 10px;
+    border: 1px solid green;
+}
+.form guessField{
+    width: 50px;
+}
+
+.form .guessField:active{
+    border: 1px solid green;
+}
+
+.form guessSubmit{
+    width: 200px;
+    box-shadow: 5px 2px 5px green;
+}
+
+.resetButton{
+    width: 200px;
+    box-shadow: 5px 2px 5px green;
+}

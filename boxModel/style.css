@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+    box-sizing: border-box;
+}
+
+h1{
+    background-color: aquamarine;
+    /* padding: 10px; */
+    padding: 5px 10px 5px 10px;
+    margin: 10px 5px; /*top-bottom, right-left*/
+    border: 2px dotted lawngreen;
+}
+/* div display by block */
+.container{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    color: whitesmoke;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px 30px 15px 40px;
+    border-radius: 20px;
+    box-shadow: 5px 10px 4px greenyellow;
+}
+
+/* div display inline */
+a{
+    display: inline-block;
+    margin-top: 10px;
+    background-color: lightcyan;
+    padding: 5px;
+    width: 100px;
+}
+
+/* button display inline-block */
+button{
+    width: 100px;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: bisque;
+    border: none;
+}

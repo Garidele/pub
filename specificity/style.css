@@ -1,0 +1,48 @@
+/* 
+div{width: 100vw;}
+100vw=100% * displayWidth 
+*/
+
+/*
+margin
+    border
+        padding
+            box
+*/
+
+/* Specificity */
+
+*{
+    background-color: lightgray;
+    color: white;
+}
+
+span{
+    background-color: black;
+    color: greenyellow;
+    text-transform: uppercase;
+}
+
+.title{
+    background-color: cadetblue;
+    color:black;
+    text-transform: uppercase;
+}
+
+span{
+    color: blue;
+}
+
+header{
+    background-color: blue;
+    width: 100%;
+    padding: 10px;
+}
+
+header h1{
+    font-size: 3em;
+}
+
+header h1 .title{
+    color: orangered;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the number</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./guessTheNumber.js" defer></script>
+</head>
+<body>
+    <section>
+        <h1>Guess the number</h1>
+
+        <p>Select a number between 1 and 100</p>
+        <p>Try to guess it in 10 tries or less</p>
+        <p>Say if the number you have to guess is greater or lesser than the one you have to guess</p>
+
+        <div class="form">
+            <label for="guessField">Introduce a number</label>
+            <input type="number" min="1" max="100" required id="guessField" class="guessField">
+            <input type="submit" value="Submit the number" class="guessSubmit">
+        </div>
+
+        <div class="resultParagraphs">
+            <p class="guesses"></p>
+            <p class="lastResult"></p>
+            <p class="lowORhi"></p>
+        </div>
+    </section>
+</body>
+</html>

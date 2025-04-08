@@ -1,0 +1,29 @@
+/* https://cssreference.io/ */
+
+/* Universal selector */
+
+*{
+    background-color: grey;
+    font-style: italic;
+    color: white;
+}
+
+header{
+    background-color: violet;
+    color: aquamarine;
+    font-family: monospace;
+}
+
+/* Selection based on class */
+
+.subtitle{
+    background-color: violet;
+    color: whitesmoke;
+}
+
+/* Selection based on id  */
+#description{
+    background-color: goldenrod;
+    color: brown;
+    font-size: 1.2em;
+}
